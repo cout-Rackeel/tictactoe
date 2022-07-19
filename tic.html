@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tic.css">
+  <title>Tic-Tac-Toe Game</title>
+</head>
+<body>
+ 
+  <div class="display-container">
+  <div class="gameboard ">
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+  </div>
+ 
+  <div class="game-log-container ">
+    <div class="welcome " id="welcome">
+      <h1>Welcome To Tic-tac-Toe...<br><br>Press Start To Begin</h1>
+      <button class="start-btn" onclick="turnOn()" >Start</button>
+    </div>
+    <div class="game-log is-hidden" id="gamelog">
+      <h1 id="winner-log">Player <span id='player'>X</span> Turn</h1>
+    <p id="game-log-text">The Game has begun....</p>
+    <p id="game-log-text-2"></p>
+    <button class="start-btn is-hidden" id="r-btn" onClick="window.location.reload();">Restart</button>
+ 
+    </div>
+  </div>
+</div>
+<script src="tic.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
